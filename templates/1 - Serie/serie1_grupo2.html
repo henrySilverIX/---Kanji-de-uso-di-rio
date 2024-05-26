@@ -1,0 +1,580 @@
+{% extends 'base.html' %}
+
+{% block pageCss %}
+    <link rel="stylesheet" href="{{url_for('static', filename='style/global.css')}}">
+    <link rel="stylesheet" href="{{url_for('static', filename='style/grupos.css')}}">
+{% endblock %} 
+
+{% block pageTitle %} Grupo 2 de Kanji da 1ª Série {% endblock %}
+
+{% block pageContent %}
+    <div class="content">
+        <h1>
+            Grupo 2
+        </h1>
+
+        <p>Esse é o segundo grupo de kanji representando palavras antônimas</p>
+
+        <div class="grid-container">
+
+            <!--Kanji 上-->
+            <!--Card para representar o kanji-->
+            <div class="grid-item">
+                <div class="card text-white bg-dark mb-3">
+                    <div class="card-header">
+                        Kanji
+                    </div>
+                    <div class="card-body">
+                        <p class="card-text">
+                            上
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!--Card para a leitura ON-->
+            <div class="grid-item">
+                <div class="tam-carta card text-white bg-dark mb-3">
+                    <div class="card-header">
+                        ON
+                    </div>
+                    <div class="card-body">
+                        <p class="card-text">
+                            ジョウ
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!--Card para a leitura KUN-->
+            <div class="grid-item">
+                <div class="tam-carta card text-white bg-dark mb-3">
+                    <div class="card-header">KUN</div>
+                    <div class="card-body">
+                    <p class="card-text">
+                        うえ
+                    </p>
+                    </div>
+                </div>
+            </div>
+
+            <!--Card para a tradução do kanji-->
+            <div class="grid-item">
+                <div class="tam-carta card text-white bg-dark mb-3">
+                    <div class="card-header">
+                        Tradução
+                    </div>
+                    <div class="card-body">
+                        <p class="card-text">
+                           Cima, sobre
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+
+            <!--Kanji 下-->
+            <!--Card para representar o kanji-->
+            <div class="grid-item">
+                <div class="card text-white bg-dark mb-3">
+                    <div class="card-header">
+                        Kanji
+                    </div>
+                    <div class="card-body">
+                        <p class="card-text">
+                            下
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!--Card para a leitura ON-->
+            <div class="grid-item">
+                <div class="tam-carta card text-white bg-dark mb-3">
+                    <div class="card-header">
+                        ON
+                    </div>
+                    <div class="card-body">
+                        <p class="card-text">
+                            カ, ゲ
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!--Card para a leitura KUN-->
+            <div class="grid-item">
+                <div class="tam-carta card text-white bg-dark mb-3">
+                    <div class="card-header">KUN</div>
+                    <div class="card-body">
+                    <p class="card-text">
+                        した
+                    </p>
+                    </div>
+                </div>
+            </div>
+
+            <!--Card para a tradução do kanji-->
+            <div class="grid-item">
+                <div class="tam-carta card text-white bg-dark mb-3">
+                    <div class="card-header">
+                        Tradução
+                    </div>
+                    <div class="card-body">
+                        <p class="card-text">
+                           Sob, Baixo
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <!--Kanji 左-->
+            <!--Card para representar o kanji-->
+            <div class="grid-item">
+                <div class="card text-white bg-dark mb-3">
+                    <div class="card-header">
+                        Kanji
+                    </div>
+                    <div class="card-body">
+                        <p class="card-text">
+                            左
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!--Card para a leitura ON-->
+            <div class="grid-item">
+                <div class="tam-carta card text-white bg-dark mb-3">
+                    <div class="card-header">
+                        ON
+                    </div>
+                    <div class="card-body">
+                        <p class="card-text">
+                            サ
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!--Card para a leitura KUN-->
+            <div class="grid-item">
+                <div class="tam-carta card text-white bg-dark mb-3">
+                    <div class="card-header">KUN</div>
+                    <div class="card-body">
+                    <p class="card-text">
+                        ひだり
+                    </p>
+                    </div>
+                </div>
+            </div>
+
+            <!--Card para a tradução do kanji-->
+            <div class="grid-item">
+                <div class="tam-carta card text-white bg-dark mb-3">
+                    <div class="card-header">
+                        Tradução
+                    </div>
+                    <div class="card-body">
+                        <p class="card-text">
+                           Esquerda
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+
+            <!--Kanji 右-->
+            <!--Card para representar o kanji-->
+            <div class="grid-item">
+                <div class="card text-white bg-dark mb-3">
+                    <div class="card-header">
+                        Kanji
+                    </div>
+                    <div class="card-body">
+                        <p class="card-text">
+                            右
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!--Card para a leitura ON-->
+            <div class="grid-item">
+                <div class="tam-carta card text-white bg-dark mb-3">
+                    <div class="card-header">
+                        ON
+                    </div>
+                    <div class="card-body">
+                        <p class="card-text">
+                            ウ, ユウ
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!--Card para a leitura KUN-->
+            <div class="grid-item">
+                <div class="tam-carta card text-white bg-dark mb-3">
+                    <div class="card-header">KUN</div>
+                    <div class="card-body">
+                    <p class="card-text">
+                        みぎ
+                    </p>
+                    </div>
+                </div>
+            </div>
+
+            <!--Card para a tradução do kanji-->
+            <div class="grid-item">
+                <div class="tam-carta card text-white bg-dark mb-3">
+                    <div class="card-header">
+                        Tradução
+                    </div>
+                    <div class="card-body">
+                        <p class="card-text">
+                           Direita
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+
+            <!--Kanji 小-->
+            <!--Card para representar o kanji-->
+            <div class="grid-item">
+                <div class="card text-white bg-dark mb-3">
+                    <div class="card-header">
+                        Kanji
+                    </div>
+                    <div class="card-body">
+                        <p class="card-text">
+                            小
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!--Card para a leitura ON-->
+            <div class="grid-item">
+                <div class="tam-carta card text-white bg-dark mb-3">
+                    <div class="card-header">
+                        ON
+                    </div>
+                    <div class="card-body">
+                        <p class="card-text">
+                            ショウ
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!--Card para a leitura KUN-->
+            <div class="grid-item">
+                <div class="tam-carta card text-white bg-dark mb-3">
+                    <div class="card-header">KUN</div>
+                    <div class="card-body">
+                    <p class="card-text">
+                        ちい・さい, こ
+                    </p>
+                    </div>
+                </div>
+            </div>
+
+            <!--Card para a tradução do kanji-->
+            <div class="grid-item">
+                <div class="tam-carta card text-white bg-dark mb-3">
+                    <div class="card-header">
+                        Tradução
+                    </div>
+                    <div class="card-body">
+                        <p class="card-text">
+                           Pequeno
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+
+            <!--Kanji 大-->
+            <!--Card para representar o kanji-->
+            <div class="grid-item">
+                <div class="card text-white bg-dark mb-3">
+                    <div class="card-header">
+                        Kanji
+                    </div>
+                    <div class="card-body">
+                        <p class="card-text">
+                            大
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!--Card para a leitura ON-->
+            <div class="grid-item">
+                <div class="tam-carta card text-white bg-dark mb-3">
+                    <div class="card-header">
+                        ON
+                    </div>
+                    <div class="card-body">
+                        <p class="card-text">
+                            ダイ, タイ
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!--Card para a leitura KUN-->
+            <div class="grid-item">
+                <div class="tam-carta card text-white bg-dark mb-3">
+                    <div class="card-header">KUN</div>
+                    <div class="card-body">
+                    <p class="card-text">
+                        おお・きい
+                    </p>
+                    </div>
+                </div>
+            </div>
+
+            <!--Card para a tradução do kanji-->
+            <div class="grid-item">
+                <div class="tam-carta card text-white bg-dark mb-3">
+                    <div class="card-header">
+                        Tradução
+                    </div>
+                    <div class="card-body">
+                        <p class="card-text">
+                           Grande
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!--Kanji 女-->
+            <!--Card para representar o kanji-->
+            <div class="grid-item">
+                <div class="card text-white bg-dark mb-3">
+                    <div class="card-header">
+                        Kanji
+                    </div>
+                    <div class="card-body">
+                        <p class="card-text">
+                            女
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!--Card para a leitura ON-->
+            <div class="grid-item">
+                <div class="tam-carta card text-white bg-dark mb-3">
+                    <div class="card-header">
+                        ON
+                    </div>
+                    <div class="card-body">
+                        <p class="card-text">
+                            ジョ, ニョ
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!--Card para a leitura KUN-->
+            <div class="grid-item">
+                <div class="tam-carta card text-white bg-dark mb-3">
+                    <div class="card-header">KUN</div>
+                    <div class="card-body">
+                    <p class="card-text">
+                        おんな
+                    </p>
+                    </div>
+                </div>
+            </div>
+
+            <!--Card para a tradução do kanji-->
+            <div class="grid-item">
+                <div class="tam-carta card text-white bg-dark mb-3">
+                    <div class="card-header">
+                        Tradução
+                    </div>
+                    <div class="card-body">
+                        <p class="card-text">
+                           Mulher
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+
+            <!--Kanji 男-->
+            <!--Card para representar o kanji-->
+            <div class="grid-item">
+                <div class="card text-white bg-dark mb-3">
+                    <div class="card-header">
+                        Kanji
+                    </div>
+                    <div class="card-body">
+                        <p class="card-text">
+                            男
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!--Card para a leitura ON-->
+            <div class="grid-item">
+                <div class="tam-carta card text-white bg-dark mb-3">
+                    <div class="card-header">
+                        ON
+                    </div>
+                    <div class="card-body">
+                        <p class="card-text">
+                            ダン
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!--Card para a leitura KUN-->
+            <div class="grid-item">
+                <div class="tam-carta card text-white bg-dark mb-3">
+                    <div class="card-header">KUN</div>
+                    <div class="card-body">
+                    <p class="card-text">
+                        おとこ
+                    </p>
+                    </div>
+                </div>
+            </div>
+
+            <!--Card para a tradução do kanji-->
+            <div class="grid-item">
+                <div class="tam-carta card text-white bg-dark mb-3">
+                    <div class="card-header">
+                        Tradução
+                    </div>
+                    <div class="card-body">
+                        <p class="card-text">
+                           Homem
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+
+            <!--Kanji 入-->
+            <!--Card para representar o kanji-->
+            <div class="grid-item">
+                <div class="card text-white bg-dark mb-3">
+                    <div class="card-header">
+                        Kanji
+                    </div>
+                    <div class="card-body">
+                        <p class="card-text">
+                            入
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!--Card para a leitura ON-->
+            <div class="grid-item">
+                <div class="tam-carta card text-white bg-dark mb-3">
+                    <div class="card-header">
+                        ON
+                    </div>
+                    <div class="card-body">
+                        <p class="card-text">
+                            ニュウ, ジュ
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!--Card para a leitura KUN-->
+            <div class="grid-item">
+                <div class="tam-carta card text-white bg-dark mb-3">
+                    <div class="card-header">KUN</div>
+                    <div class="card-body">
+                    <p class="card-text">
+                        い・る, はい・る
+                    </p>
+                    </div>
+                </div>
+            </div>
+
+            <!--Card para a tradução do kanji-->
+            <div class="grid-item">
+                <div class="tam-carta card text-white bg-dark mb-3">
+                    <div class="card-header">
+                        Tradução
+                    </div>
+                    <div class="card-body">
+                        <p class="card-text">
+                           Entrar
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+
+            <!--Kanji 出-->
+            <!--Card para representar o kanji-->
+            <div class="grid-item">
+                <div class="card text-white bg-dark mb-3">
+                    <div class="card-header">
+                        Kanji
+                    </div>
+                    <div class="card-body">
+                        <p class="card-text">
+                            出
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!--Card para a leitura ON-->
+            <div class="grid-item">
+                <div class="tam-carta card text-white bg-dark mb-3">
+                    <div class="card-header">
+                        ON
+                    </div>
+                    <div class="card-body">
+                        <p class="card-text">
+                            シュツ, スイ
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!--Card para a leitura KUN-->
+            <div class="grid-item">
+                <div class="tam-carta card text-white bg-dark mb-3">
+                    <div class="card-header">KUN</div>
+                    <div class="card-body">
+                    <p class="card-text">
+                        で・る
+                    </p>
+                    </div>
+                </div>
+            </div>
+
+            <!--Card para a tradução do kanji-->
+            <div class="grid-item">
+                <div class="tam-carta card text-white bg-dark mb-3">
+                    <div class="card-header">
+                        Tradução
+                    </div>
+                    <div class="card-body">
+                        <p class="card-text">
+                           Sair
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}

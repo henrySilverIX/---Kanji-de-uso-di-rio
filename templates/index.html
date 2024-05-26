@@ -1,0 +1,40 @@
+{% extends 'base.html' %}
+
+{% block pageCss %}
+    <link rel="stylesheet" href="{{url_for('static', filename='style/homepage.css')}}">
+    <link rel="stylesheet" href="{{url_for('static', filename='style/global.css')}}">
+{% endblock %} 
+
+{% block pageTitle %} Homepage {% endblock %}
+
+{% block pageContent %}
+    <div class="content">
+        <h1>
+            Jouyou kanji - 常用漢字
+        </h1>
+
+        <p>
+            Jōyō kanji (常用漢字) é a lista de 2136 kanji feita pelo Ministério de Educação Japonês, catalogando os ideogramas a serem utilizados em textos oficiais, imprensa, editores e demais meios de difusão da língua escrita japonesa. É uma versão ligeiramente modificada dos tōyō kanji, que foi a primeira lista padronizada para a educação secundária emitida após a Segunda Guerra Mundial.
+            Os 2136 kanji da lista dos jōyō kanji consistem de:
+        </p>
+
+        <ul>
+            <li>
+                1026 kanji ensinados durante a educação primária;
+            </li>
+
+            <li>
+                1110 kanji ensinados durante a educação secundária.
+            </li>
+        </ul>
+
+        <h2>
+            Mudanças em relação à lista touyou kanji - 当用漢字
+        </h2>
+        <hr>
+        <p>
+            À lista jōyō kanji foram adicionados mais 95 kanji que não apareciam nos tōyō kanji, além disso o caractere 燈 (とう) foi substituído por 灯. Aqui está a lista das adições:<br> 
+            猿 凹 渦 靴 稼 拐 涯 垣 殻 潟 喝 褐 缶 頑 挟 矯 襟 隅 渓 蛍 嫌 溝 昆 崎 皿 桟 傘 肢 遮 蛇 酌 汁 塾 尚 宵 縄 壌 唇 甚 据 杉 斉 逝 仙 栓 挿 曹 槽 藻 駄 濯 棚 挑 眺 釣 塚 漬 亭 偵 泥 搭 棟 洞 凸 屯 把 覇 漠 肌 鉢 披 扉 猫 頻 瓶 雰 塀 泡 俸 褒 朴 僕 堀 磨 抹 岬 妄 厄 癒 悠 羅 竜 戻 枠
+        </p>
+    </div>
+{% endblock %}

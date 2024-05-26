@@ -1,0 +1,17 @@
+.content > .grid-container {
+    display: inline-grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows:auto auto auto auto auto auto auto auto auto auto auto auto;
+    gap:3rem;
+}
+
+.card{
+    min-height: 20vh;
+    min-width: 20vh;
+    width:auto;
+    height:auto;
+}
+
+.grid-item{
+    text-align: center;
+}
